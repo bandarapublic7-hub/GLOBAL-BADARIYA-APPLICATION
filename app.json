@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Global Badariya Institute of Engineering and Management",
+    "slug": "global-badariya-campus",
+    "scheme": "globalbadariya",
+    "version": "1.0.0",
+    "icon": "./assets/app-icon.png",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/GlobalLogoB.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#e01e26"
+    },
+    "android": {
+      "package": "com.globalbadariya.campus",
+      "versionCode": 1,
+      "icon": "./assets/app-icon.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app-icon.png",
+        "backgroundColor": "#e01e26"
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.globalbadariya.campus"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Global Badariya to choose your profile photo.",
+          "cameraPermission": false,
+          "microphonePermission": false
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "global-badariya-campus",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "prebuild:android": "expo prebuild --platform android",
+    "build:apk": "npx eas-cli build --platform android --profile apk"
+  },
+  "engines": { "node": ">=20.19.0" },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@expo/vector-icons": "^15.0.2",
+    "@react-navigation/bottom-tabs": "^7.4.0",
+    "@react-navigation/native": "^7.1.17",
+    "@react-navigation/native-stack": "^7.3.26",
+    "expo": "~54.0.0",
+    "expo-image-picker": "~17.0.8",
+    "expo-status-bar": "~3.0.9",
+    "react": "19.1.0",
+    "react-native": "0.81.4",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.16.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "typescript": "~5.9.2"
+  }
+}
