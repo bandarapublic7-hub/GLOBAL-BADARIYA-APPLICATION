@@ -33,7 +33,13 @@
           "cameraPermission": false,
           "microphonePermission": false
         }
-      ]
-    ]
+      ],
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "61349b3c-cd8a-4195-8bb6-60cb5873bac0"
+      }
+    }
   }
 }

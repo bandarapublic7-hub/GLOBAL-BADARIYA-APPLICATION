@@ -50,3 +50,53 @@ EAS returns a download link for the APK when the remote build finishes. The `pro
 ## Original prototype
 
 `global badariya.html` remains as the browser version, including the two independently draggable looping half-wheel menus.
+
+
+
+
+
+
+
+https://expo.dev/accounts/samratsharma/projects/global-badariya-campus/builds/b71a367a-c650-44ea-8014-f1cce0dba9ec
+
+
+  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+  █ ▄▄▄▄▄ █▀▄▄▄ ██▀▄█ ▄ ▄█▄▄██▀ █ ▄ █ ▄▄▄▄▄ █
+  █ █   █ █▀▄▀▄ █▄ ▄█▀ ▄▄ █ ▀▄ █▀▀███ █   █ █
+  █ █▄▄▄█ █▀▄▀▄ █▄▄▄▀█▀▄█▀▄█▄▀▀ ▀ ▄ █ █▄▄▄█ █
+  █▄▄▄▄▄▄▄█▄█▄█ █ █ █▄▀ ▀ ▀ █ ▀ █▄▀ █▄▄▄▄▄▄▄█
+  █▄▄ ▄ █▄▄▄▄ ▄█  █▀ ▀ █▀ ▀▄  ▄▀ ▀▀▀▄▀ ▀ █ ▀█
+  █▀▄▀██▄▄▀█ █▄▀ ▄ ▄ ▀▀▄  ███ ▄▄██▀ █ █▄▀█▄▀█
+  █▄█▀▀▀▄▄▀▄ ▀▄▀█▄ ▄▀▀██▀▀ ▄▄▀▄▀▄▀ ▄▀▀█▀  ▄▀█
+  █▀▀▀██▀▄▄▀ ██▀▄█ ▄█▀▀▄ ██▀▄█ ▀▄▄▀▀ █▄▀ ▄▀██
+  █▀█▄██▀▄▀ ▄ ▀▄▄▄▄▀▄▀▀ ▀ ▀▄ ▄▄ ▄▀▀█▀▀ ▀█▄█▀█
+  █▀█ ▄▀▄▄▄▀▄▄█▀█▀▄██▄█▀ █▀ ██▄ ▄▄▀▀ ▀  ▀████
+  ████▀▄▀▄ ▄▄▀█▄▀▀ ▀▀▄▀▀▀▄▀▀▄▀█▄ ▄▀▄▄▀ ▀▄▄█▀█
+  █▄▄█▀ ▀▄█▄ ▄ ▄█▀█▀▄██ ▀█▀▄█▀ ▀▄█▀▄█ ▀ ▀▄▀██
+  █    ▄▄▄ ▄██ ▄  █▀ ▀▀ ▀▄▀█▄ ▄█▄█▀  ▀▀▀▄▄▄ █
+  █ ▀▄   ▄ █ █▀▀ ▄   ▀▀▄ ▄█▀██▄▄▄▀█ █▀ █▄▄▀██
+  █  ██  ▄▄▄█▄█▀▀▄▀▄█▀▀▀█▄▀▄▄▀▄▄▄▄▀▄▄▀▀▀ ▄ ▀█
+  █ ██▄█ ▄▄▀ ▀█▀█▀ ▄▄ █▄▀ ███▄  ███▄▀ ▀▄ █▀▀█
+  █▄██▄█▄▄▄▀▄▄▀▄▄▄▄█▄▀ ▀▀▄ ▄▄ █ ▄▀█ ▄▄▄ █ ▄▀█
+  █ ▄▄▄▄▄ █▄▄▄███▀ ▀█▄█ ▀██ █▀ ▀██  █▄█ █▄███
+  █ █   █ █  ▀▄▄█▀▀▀█▄▀▄█▄  ▄▀▄█ ▄█▄▄▄▄▄█ █ █
+  █ █▄▄▄█ █    ▄█▀█▀█▄█▄▀██▄▄▀ █▄▀▄▀ ▄▀▄ █▀██
+  █▄▄▄▄▄▄▄█▄▄█▄▄▄███▄████▄█▄▄▄▄▄▄█▄███▄██▄███
+
+
+
+
+
+
+  https://expo.dev/accounts/samratsharma/projects/global-badariya-campus/builds/b71a367a-c650-44ea-8014-f1cce0dba9ec
+
+
+
+
+
+
+  npx expo install --fix 
+  npx expo-doctor
+  npm run build:apk
+  npx eas-cli@latest build --platform android --profile apk
+  npx eas-cli@latest login
